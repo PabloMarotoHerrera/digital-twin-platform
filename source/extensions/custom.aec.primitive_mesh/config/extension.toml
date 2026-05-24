@@ -1,0 +1,16 @@
+[package]
+title = "AEC Primitive Mesh"
+version = "0.1.0"
+description = "Parametric primitive mesh tools for AEC modeling workflows."
+category = "AEC"
+keywords = ["aec", "primitive", "mesh", "modeling", "usd"]
+
+[dependencies]
+"omni.kit.uiapp" = {}
+"omni.kit.menu.utils" = {}
+"omni.usd" = {}
+"omni.kit.commands" = {}
+"omni.kit.usd.layers" = {}
+
+[[python.module]]
+name = "custom_aec.primitive_mesh"

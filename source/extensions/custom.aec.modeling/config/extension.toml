@@ -1,0 +1,18 @@
+[package]
+title = "AEC Modeling"
+version = "0.1.0"
+description = "Unified AEC modeling panel for sketches, extrusions, and primitive blocks."
+category = "AEC"
+keywords = ["aec", "modeling", "sketch", "extrude", "primitive", "usd"]
+
+[dependencies]
+"custom.aec.extrude" = {}
+"custom.aec.primitive_mesh" = {}
+"omni.curve.manipulator" = {}
+"omni.kit.commands" = {}
+"omni.kit.menu.utils" = {}
+"omni.kit.uiapp" = {}
+"omni.usd" = {}
+
+[[python.module]]
+name = "custom_aec.modeling"

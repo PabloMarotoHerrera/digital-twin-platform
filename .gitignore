@@ -1,8 +1,24 @@
-﻿# All folders starting with _ are local.
-_*/
+# Kit generated/runtime directories.
+_build/
+_compiler/
+_repo/
 
-# Compiled python files.
+# Product source-of-truth lives under source/apps and source/extensions.
+# Do not globally ignore /source; local app and extension code must be visible to Git.
+
+# Compiled python files and caches.
+__pycache__/
 *.py[cod]
+*$py.class
+
+# Temporary repository analysis dumps.
+repo_tree.txt
+source_tree.txt
+tools_tree.txt
+important_files.txt
+extensions_list.txt
+source/source_tree.txt
+templates/templates_tree.txt
 
 # Visual Studio files.
 /.vs
@@ -37,4 +53,5 @@ deps/**/user.toml
 # Streaming EventTrace
 *.etli
 
-/source
+# Vendor/runtime dependencies such as EnergyPlusV24-2-0 should be classified
+# before adding an active ignore rule.

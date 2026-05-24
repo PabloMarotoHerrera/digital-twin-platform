@@ -1,0 +1,15 @@
+[package]
+title = "AEC Thermal Visualization"
+version = "0.1.0"
+description = "Synthetic thermal visualization panel for AEC spaces."
+category = "AEC"
+keywords = ["aec", "thermal", "visualization", "zones", "spaces"]
+
+[dependencies]
+"omni.kit.menu.utils" = {}
+"omni.kit.uiapp" = {}
+"omni.usd" = {}
+
+[[python.module]]
+name = "custom_aec.thermal_viz"
+

@@ -1,0 +1,16 @@
+[package]
+title = "AEC Extrude"
+version = "0.1.0"
+description = "Extrude closed AEC sketch curves into USD mesh blocks."
+category = "AEC"
+keywords = ["aec", "sketch", "extrude", "mesh", "usd"]
+
+[dependencies]
+"omni.kit.uiapp" = {}
+"omni.kit.menu.utils" = {}
+"omni.usd" = {}
+"omni.kit.commands" = {}
+"omni.kit.usd.layers" = {}
+
+[[python.module]]
+name = "custom_aec.extrude"
